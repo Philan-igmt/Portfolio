@@ -28,7 +28,7 @@ const App = () => {
       <Services/>
       <Parrallax />
       <Skills />
-      <Contact/>
+      {/* <Contact/> */}
       <Footer />
     </div>
   );

@@ -23,7 +23,7 @@ const Contact = () => {
                         <div className="input-field col s6">
                         <i className="material-icons prefix">email</i>
                         <input id="last_name" type="email" className="validate"/>
-                        <label htmlFor="last_name">Email</label>
+                        <label htmlFor="email">Email</label>
                         </div>
                     </div>
                     {/* row end */}
@@ -35,7 +35,7 @@ const Contact = () => {
                             <div className="input-field col s12 l12">
                             <i className="material-icons prefix">mode_edit</i>
                             <textarea id="icon_prefix2" className="materialize-textarea"></textarea>
-                            <label htmlFor="icon_prefix2">First Name</label>
+                            <label htmlFor="Messege">Messege</label>
                             </div>
                         </div>
                        
