@@ -1,0 +1,18 @@
+.container{
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 100%;
+}
+
+
+.html {
+    max-width: 100%;
+}
+h2{
+    text-align: center;
+}
+
+.allSkill{
+    background-color: black;
+    color: white;
+}

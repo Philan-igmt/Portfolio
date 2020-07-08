@@ -1,0 +1,32 @@
+.row {
+    width: 90%;
+    margin: 0 auto;
+
+}
+
+.about {
+    background-color: black;
+    color: white;
+}
+.collapsible{
+    color:black;
+    
+}
+
+.card{
+    border: red 2px solid;
+}
+
+#heading{
+    color: red;
+}
+
+.btn{
+    border-radius: 10px;
+    margin-left: 10px;
+}
+
+img{
+    width: 500px;
+    height: 50vh;
+}
