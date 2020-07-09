@@ -10,7 +10,9 @@ import Footer from "./components/footer/Footer";
 import Parrallax from "./components/parallax/Parrallax";
 import Contact from "./components/contact/Contact";
 import Services from "./components/services/Services";
-import Count from "./components/counting/Counting";
+import Testi from "./components/testimonials/Testi";
+import Projects from "./components/projects/Projects";
+
 
 
 const App = () => {
@@ -22,13 +24,14 @@ const App = () => {
     <div className="App">
       <Nav />
       <Home />
-      <Count/>
       <About />
       <Parrallax />
       <Services/>
       <Parrallax />
       <Skills />
-      {/* <Contact/> */}
+      <Projects/>
+      <Testi/>
+      <Contact/>
       <Footer />
     </div>
   );

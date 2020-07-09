@@ -1,0 +1,22 @@
+.tesimonials{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+#card{
+    width: 360px;
+    height: 520px;
+    background-color: black;
+}
+
+.testihead{
+    margin: 0;
+    padding-bottom: 100px;
+}
+
+#card:hover{
+    transform: scale(1.2);
+    z-index: 1;
+    transition: 1s;
+}

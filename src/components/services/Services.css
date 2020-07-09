@@ -1,3 +1,12 @@
 .container{
     display: flex;
+    margin-bottom: 100px;
+}
+.fade-up{
+    background-color: black;
+    color: white;
+}
+
+h2 .head{
+    border-bottom: red 2px solid;
 }

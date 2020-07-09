@@ -1,8 +1,6 @@
 * {
     margin: 0px;
     padding: 0px;
-  
-
 }
 
 
@@ -16,3 +14,8 @@
     background: linear-gradient(transparent,red);
     border-radius: 6px;
 }
+
+h2{
+    margin: 0;
+}
+

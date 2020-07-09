@@ -7,6 +7,7 @@
 .about {
     background-color: black;
     color: white;
+
 }
 .collapsible{
     color:black;
@@ -19,6 +20,7 @@
 
 #heading{
     color: red;
+    align-items: center;
 }
 
 .btn{
