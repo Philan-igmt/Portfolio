@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b9bd8ac6.chunk.css",
+    "main.js": "/static/js/main.c6085f21.chunk.js",
+    "main.js.map": "/static/js/main.c6085f21.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.19ccc7f6.js",
+    "runtime-main.js.map": "/static/js/runtime-main.19ccc7f6.js.map",
+    "static/css/2.0c041d17.chunk.css": "/static/css/2.0c041d17.chunk.css",
+    "static/js/2.51aea5bc.chunk.js": "/static/js/2.51aea5bc.chunk.js",
+    "static/js/2.51aea5bc.chunk.js.map": "/static/js/2.51aea5bc.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.ecdfcbc854deae9e380f9ba730cd5ef6.js": "/precache-manifest.ecdfcbc854deae9e380f9ba730cd5ef6.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.0c041d17.chunk.css.map": "/static/css/2.0c041d17.chunk.css.map",
+    "static/css/main.b9bd8ac6.chunk.css.map": "/static/css/main.b9bd8ac6.chunk.css.map",
+    "static/js/2.51aea5bc.chunk.js.LICENSE.txt": "/static/js/2.51aea5bc.chunk.js.LICENSE.txt",
+    "static/media/Godwin.jpg": "/static/media/Godwin.679a104b.jpg",
+    "static/media/LifeChoices.jpg": "/static/media/LifeChoices.1e2a5718.jpg",
+    "static/media/coding.jpg": "/static/media/coding.96894b24.jpg",
+    "static/media/cv.docx": "/static/media/cv.6e30121f.docx",
+    "static/media/ganief.jpg": "/static/media/ganief.029c5532.jpg",
+    "static/media/jason.jpeg": "/static/media/jason.b46d0829.jpeg",
+    "static/media/philani.png": "/static/media/philani.0f1d3b16.png",
+    "static/media/yonela.jpeg": "/static/media/yonela.ed8ea805.jpeg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.19ccc7f6.js",
+    "static/css/2.0c041d17.chunk.css",
+    "static/js/2.51aea5bc.chunk.js",
+    "static/css/main.b9bd8ac6.chunk.css",
+    "static/js/main.c6085f21.chunk.js"
+  ]
+}
