@@ -8,11 +8,11 @@ import { FaBasketballBall} from "react-icons/fa";
 import { FaFilm} from "react-icons/fa";
 import { FaMicrophone} from "react-icons/fa";
 import cv from "./cv.docx"
-// import { FaFilm} from "react-icons/fa";
+import { FaRegCalendarAlt} from "react-icons/fa";
 
 const About = () => {
   return (
-    <div className="about" data-aos="fade-up">
+    <div className="about" data-aos="fade-up" id="about">
       <h2 id="heading" style={{padding:"50px"}}>About Me</h2>
       <div className="row">
       <div className="col s12 l12">
@@ -25,7 +25,7 @@ const About = () => {
             <div className="card-content">
             <ul className="collapsible">
                 <li  className="active">
-                  <div className="collapsible-header tooltipped" data-position="bottom" data-tooltip="click to view"><FaInfo color="Turquoise" size="4rem"/>Bio</div>
+                  <div className="collapsible-header tooltipped" data-position="bottom" data-tooltip="click to view"><FaInfo color="black" size="4rem"/>Bio</div>
                   <div className="collapsible-body">
                     <p>I am a problem solver who always stays focused until I achieve what I have set my mind to. I believe
                       that failure is a stepping stone to everything I do and always puts others first. I am a man of actions
@@ -38,11 +38,11 @@ const About = () => {
                     <p><span><FaFilm color="black" size="2rem"  /></span> <span style={{color:"red"}}>Acting</span> -I was doing drama in High School</p>
                     <p><FaBasketballBall color="black" size="2rem"/><span style={{color:"red"}}>Soccer</span>-I was playing for Cape Peninsula University of Technology first team in 2018,19</p>
                     <p><FaMicrophone color="black" size="2rem"/><span style={{color:"red"}}>Debate</span>these was my part time activity when I was curious about some,some debate team just bring all that to live</p>
-                    <p><FaMicrophone color="black" size="2rem"/><span style={{color:"red"}}>Singing</span>-I sing was sisnging in for the community choir</p>
+                    <p><FaMicrophone color="black" size="2rem"/><span style={{color:"red"}}>Singing</span>-I sing was singing in for the community choir</p>
                     </div>
                 </li>
-                <li className="tooltipped" data-position="bottom" data-tooltip="click to view">
-                  <div className="collapsible-header"><i className="material-icons">person_pin_circle</i>OverView</div>
+                <li>
+                  <div className="collapsible-header tooltipped" data-position="bottom" data-tooltip="click to view">< FaRegCalendarAlt color="black" size="4rem"/>OverView</div>
                   <div className="collapsible-body">
                     <p>Fullname: Philani Sithembiso Ndhlela</p>
                     <p>Date of Birth: 1998-01-02</p>
@@ -52,12 +52,6 @@ const About = () => {
                     <p>Willing to Relocate: <span className="red-text">Yes</span></p>
                     <p>Where to: Johannesburg,Pretoria,Durban</p>
                     <p><i className="red-text">please the check the rest by clicking the download button</i></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
-                    <p></p>
                     </div>
                 </li>
               </ul>

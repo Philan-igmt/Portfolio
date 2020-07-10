@@ -20,27 +20,27 @@ const Nav = () => {
           <a href="#!" className="sidenav-trigger" data-target="mobile">
             <i className="material-icons">menu</i>
           </a>
-          <ul className="right hide-on-med-and-down">
+          <ul className="right hide-on-med-and-down" style={{marginLeft:"200px"}}>
             <li>
-              <a href="#!">Home</a>
+              <a href="#home">Home</a>
             </li>
             <li>
-              <a href="#!">About</a>
+              <a href="#about">About</a>
             </li>
             <li>
-              <a href="#!">Projects</a>
+              <a href="#project">Projects</a>
             </li>
             <li>
-              <a href="#!">Services</a>
+              <a href="#service">Services</a>
             </li>
             <li>
-              <a href="#!">Skills</a>
+              <a href="#skill">Skills</a>
             </li>
             <li>
-              <a href="#!">Testimonials</a>
+              <a href="#testi">Testimonials</a>
             </li>
             <li>
-              <a href="#!">Contacts</a>
+              <a href="#contact">Contacts</a>
             </li>
             <li>
               <a href="#!"></a>
@@ -70,25 +70,25 @@ const Nav = () => {
           </div>
         </li>
         <li>
-          <a href="#!">Home</a>
+          <a href="#home">Home</a>
         </li>
         <li>
-          <a href="#!">About</a>
+          <a href="#about">About</a>
         </li>
         <li>
-          <a href="#!">Projects</a>
+          <a href="#project">Projects</a>
         </li>
         <li>
-          <a href="#!">Services</a>
+          <a href="#service">Services</a>
         </li>
         <li>
-          <a href="#!">Skills</a>
+          <a href="#skill">Skills</a>
         </li>
         <li>
-          <a href="#!">Testimonials</a>
+          <a href="#testi">Testimonials</a>
         </li>
         <li>
-          <a href="#!">Contacts</a>
+          <a href="#contact">Contacts</a>
         </li>
         <li>
           <a href="#!"></a>

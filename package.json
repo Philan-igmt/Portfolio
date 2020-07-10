@@ -1,5 +1,5 @@
 {
-  "home":"https://Philan-igmt.github.io/portfoliodepoy",
+  "home": "https://Philan-igmt.github.io/portfoliodepoy",
   "name": "portfolio",
   "version": "0.1.0",
   "private": true,
@@ -13,8 +13,10 @@
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "react-icons": "^3.10.0",
+    "react-router-dom": "^5.2.0",
     "react-script": "^2.0.5",
     "react-scripts": "3.4.1",
+    "react-scroll": "^1.7.16",
     "react-spring": "^8.0.27",
     "start": "^5.1.0"
   },

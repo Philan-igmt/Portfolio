@@ -12,6 +12,8 @@ import Contact from "./components/contact/Contact";
 import Services from "./components/services/Services";
 import Testi from "./components/testimonials/Testi";
 import Projects from "./components/projects/Projects";
+// import {BrowserRouter,Switch, Route} from "react-router-dom";
+// import Skill from "./components/skills/Skill";
 
 
 
@@ -21,19 +23,32 @@ const App = () => {
     M.AutoInit();
   });
   return (
-    <div className="App">
-      <Nav />
-      <Home />
-      <About />
-      <Parrallax />
-      <Services/>
-      <Parrallax />
-      <Skills />
-      <Projects/>
-      <Testi/>
-      <Contact/>
-      <Footer />
-    </div>
+    
+      // <BrowserRouter>
+      <div className="App">
+         <Nav />
+        {/*<Route path="/" component={Home}/>
+        <Route path="/about" component={About}/>
+        <Route path="/projects" component={Projects}/>
+        <Route path="/services" component={Services}/>
+        <Route path="/skill" component={Skill}/>
+        <Route path="/testimonials" component={Testi}/>
+        <Route path="/contact" component={Footer}/> */}
+
+        <Home />
+        <About />
+        <Parrallax />
+        <Services/>
+        <Parrallax />
+        <Skills />
+        <Projects/>
+        <Testi/>  
+        <Contact/>
+        <Footer />
+        </div>
+      // </BrowserRouter>
+      
+    
   );
 };
 

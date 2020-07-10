@@ -35,44 +35,52 @@ export default class MyForm extends React.Component{
 
 
     return (
-        <div className="allcontact black white-text">
+        <div className="allcontact black white-text" id="contact">
             <div className="row" style={{padding:"200px 0px"}}>
                 <div className="col s12 center"><h2 data-aos="fade-up">Get In Touch</h2></div>
                 <div className="col s12 m6">
                 <div className="row center">
                         <form data-aos="fade-right" className="col s12"  action="https://formspree.io/mrgyykng" method="POST">
-                        <div className="row">
-                            <div className="input-field col s12 m6">
-                            <i className="material-icons prefix">account_circle</i>
-                            <input style={{color:"white"}} id="name" name="Name" type="text" required className="validate"/>
-                            <label htmlFor="name">Name</label>
+                            <div className="row">
+                                <div className="input-field col s12 m6">
+                                    <i className="material-icons prefix">account_circle</i>
+                                    <input style={{color:"white"}} id="name" name="Name" type="text" required className="validate"/>
+                                    <label htmlFor="name">Name</label>
+                                </div>
+                            
+                                <div className="input-field col s12 m6">
+                                    <i className="material-icons prefix">email</i>
+                                    <input style={{color:"white"}} id="email" type="email" name="email" required className="validate"/>
+                                    <label htmlFor="email">Email</label>
+                                </div>
+                    
                             </div>
-                           
-                            <div className="input-field col s12 m6">
-                            <i className="material-icons prefix">email</i>
-                            <input style={{color:"white"}} id="email" type="email" name="email" required className="validate"/>
-                            <label htmlFor="email">Email</label>
+                            <div className="row">
+                                <div className="input-field col s12">
+                                    <i className="material-icons prefix">edit</i>
+                                    <input style={{color:"white"}} id="messege" type="text" name="messege" required className="validate"/>
+                                    <label htmlFor="messege">Messege</label>
+                                </div>
                             </div>
-                
-                        </div>
-                        <div className="row">
-                            <div className="input-field col s12">
-                            <i className="material-icons prefix">edit</i>
-                            <input style={{color:"white"}} id="messege" type="text" name="messege" required className="validate"/>
-                            <label htmlFor="messege">Messege</label>
-                            </div>
-                        </div>
-                        {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
-                        {status === "ERROR" && <p>Ooops! There was an error.</p>}
+                                {status === "SUCCESS" ? <p>Thanks!</p> : <button>Submit</button>}
+                                {status === "ERROR" && <p>Ooops! There was an error.</p>}
                         </form>
                     </div>
                 </div>
                 <div className="col s12 m6" data-aos="fade-left">
                     <div className="row" style={{marginTop:"30px"}}>
-                        <div className="col s12"><a href="mailto:philanisithembiso@gmail.com"><i className="material-icons left">email</i>philanisithembiso@gmail.com</a></div>
-                        <div className="col s12"><a href="tel:+27761938834"><i className="material-icons left">phone</i>+27 76 193 8834</a></div>
-                        <div className="col s12"><a href="https://www.google.com/maps/place/Toplin+House+contact/@-33.9052978,18.5888977,15z/data=!4m5!3m4!1s0x0:0x33631bba9afc7c03!8m2!3d-33.9052978!4d18.5888977"><i><i className="material-icons left">location_on</i>219 Voortrekker Rd, Glenlily, Cape Town, 7500</i></a></div>
-                        <div id="icons" className="col s12 icons">{display}</div>
+                        <div className="col s12 ">
+                            <a href="mailto:philanisithembiso@gmail.com"><i className="material-icons left">email</i>philanisithembiso@gmail.com</a>
+                        </div>
+                        <div className="col s12">
+                            <a href="tel:+27761938834"><i className="material-icons left">phone</i>+27 76 193 8834</a>
+                        </div>
+                        <div className="col s12">
+                            <a href="https://www.google.com/maps/place/Toplin+House+contact/@-33.9052978,18.5888977,15z/data=!4m5!3m4!1s0x0:0x33631bba9afc7c03!8m2!3d-33.9052978!4d18.5888977"><i className="material-icons left">location_on</i><i>219 Voortrekker Rd, Glenlily, Cape Town, 7500</i></a>
+                        </div>
+                        <div id="icons" className="col s12">
+                            <p>{display}</p>
+                        </div>
                     </div>
                 </div>
             </div>

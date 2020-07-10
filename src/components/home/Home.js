@@ -13,7 +13,7 @@ const Home = () => {
     Aos.init({duration:2000})
   });
   return (
-    <div className="fullhome">
+    <div className="fullhome" id="home">
       <div className="home">
         <h2 data-aos="fade-down" className="intro">
           <span>I'm</span> the <span>Ki</span>ng of Dev
@@ -22,9 +22,9 @@ const Home = () => {
 
         <div className="scroll">
           <p className="pars">scroll</p>
-          <a className="btn-floating  btn-large Pale pulse">
+          <span className="btn-floating  btn-large Pale pulse">
             <i className="small material-icons">file_download</i>
-          </a>
+          </span>
         </div>
       </div>
     </div>

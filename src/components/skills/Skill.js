@@ -24,10 +24,10 @@ const icons =[
 
 ]
 
-const items = icons.map(icon=><span style={{margin:"0px 50px"}} key={icon.id}>{icon.name}<span style={{fontSize:"2rem"}}>{icon.lang}</span> </span>)
+const items = icons.map(icon=><span style={{margin:"0px 50px"}} key={icon.id}>{icon.name}<span style={{fontSize:"2rem"}}> {icon.lang}</span> </span>)
 
     return (
-      <div className="allSkill"  style={{padding:"150px 0px"}}>
+      <div className="allSkill" id="skill"  style={{padding:"50px 0px"}}>
         <div>
           <h2 className="center" data-aos="fade-up">Skills</h2>
           <div style={{display:"flex",justifyContent:"space-around"}}>
