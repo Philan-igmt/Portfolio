@@ -4,6 +4,7 @@ import M from "materialize-css/dist/js/materialize.min.js";
 import "./Nav.css";
 import icon from "../../images/icon.png";
 import me from "./home.png";
+import {Link} from "react-scroll";
 
 const Nav = () => {
   useEffect(() => {
@@ -14,36 +15,36 @@ const Nav = () => {
     <div>
       <nav className="nav-wrapper nav-fixed black">
         <div className="container">
-          <a href="#!">
+          <Link smooth="true" duration={1000} to="home">
             <img src={icon} alt="" />
-          </a>
-          <a href="#!" className="sidenav-trigger" data-target="mobile">
+          </Link>
+          <a smooth="true" duration={1000} to="!" className="sidenav-trigger" data-target="mobile">
             <i className="material-icons">menu</i>
           </a>
           <ul className="right hide-on-med-and-down" style={{marginLeft:"200px"}}>
             <li>
-              <a href="#home">Home</a>
+              <Link smooth="true" duration={1000} to="home">Home</Link>
             </li>
             <li>
-              <a href="#about">About</a>
+              <Link smooth="true" duration={1000} to="about">About</Link>
             </li>
             <li>
-              <a href="#project">Projects</a>
+              <Link smooth="true" duration={1000} to="project">Projects</Link>
             </li>
             <li>
-              <a href="#service">Services</a>
+              <Link smooth="true" duration={1000} to="service">Services</Link>
             </li>
             <li>
-              <a href="#skill">Skills</a>
+              <Link smooth="true" duration={1000} to="skill">Skills</Link>
             </li>
             <li>
-              <a href="#testi">Testimonials</a>
+              <Link smooth="true" duration={1000} to="testi">Testimonials</Link>
             </li>
             <li>
-              <a href="#contact">Contacts</a>
+              <Link smooth="true" duration={1000} to="contact">Contacts</Link>
             </li>
             <li>
-              <a href="#!"></a>
+              <Link smooth="true" duration={1000} to="!"></Link>
             </li>
           </ul>
         </div>
@@ -54,16 +55,16 @@ const Nav = () => {
             <div className="background">
               <img src={icon} />
             </div>
-            <a href="#user">
+            <a smooth="true" duration={1000} to="user">
               <img className="circle" src={me} />
             </a>
-            <a href="#name">
-              <span className="name black-text">
+            <a smooth="true" duration={1000} to="name">
+              <span className="name red-text">
                 Philani Sithembiso Ndhlela
               </span>
             </a>
-            <a href="#email">
-              <span className="white-text email">
+            <a smooth="true" duration={1000} to="email">
+              <span className="red-text email">
                 philanisithembiso@gmail.com
               </span>
             </a>
