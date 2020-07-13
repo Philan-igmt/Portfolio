@@ -16,11 +16,18 @@ const Home = () => {
     <div className="fullhome" id="home">
       <div className="home">
         <h2 data-aos="fade-down" className="intro">
-          <span>I'm</span> the <span>Ki</span>ng of Dev
-          <span>
-            <FaCrown color="red" size="5rem" />
-          </span>
+          <i>
+            <span>I'm</span> the <span>Ki</span>ng of Dev
+            <span>
+              <FaCrown color="red" size="5rem" />
+            </span>
+          </i>
         </h2>
+        <p>
+          <i className="red-text" data-aos="zoom-in">
+            Philani Sithembiso Ndhlela, Welcome to my Portfolio
+          </i>
+        </p>
 
         <div className="scroll">
           <p className="pars">scroll</p>
