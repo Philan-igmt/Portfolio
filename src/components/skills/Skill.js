@@ -7,7 +7,9 @@ import { FaJs } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { FaDatabase } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
+import { FaNodeJs } from "react-icons/fa";
 import "./Skills.css";
+import Spring from "./Spring";
 
 const Skill = () => {
   useEffect(() => {
@@ -18,38 +20,44 @@ const Skill = () => {
     {
       name: <FaHtml5 color="red" size="5rem" />,
       id: 1,
-      lang: "90",
+      percentages: "90",
       des: "HTML5",
     },
     {
       name: <FaCss3Alt color="blue" size="5rem" />,
       id: 2,
-      lang: "70",
+      percentages: "60",
       des: "CSS3",
     },
     {
       name: <FaJs color="yellow" size="5rem" />,
       id: 6,
-      lang: "70",
+      percentages: "70",
       des: "JSCRIPT",
     },
     {
       name: <FaPython color="yellow" size="5rem" />,
       id: 3,
-      lang: "70",
+      percentages: "70",
       des: "PYTHON",
     },
     {
       name: <FaDatabase color="red" size="5rem" />,
       id: 4,
-      lang: "80",
+      percentages: "80",
       des: "MySQL",
     },
     {
       name: <FaReact color="Aqua" size="5rem" />,
       id: 5,
-      lang: "70",
+      percentages: "70",
       des: "REACT JS",
+    },
+    {
+      name: <FaNodeJs color="green" size="5rem" />,
+      id: 7,
+      percentages: "50",
+      des: "Node JS",
     },
   ];
 
@@ -58,7 +66,7 @@ const Skill = () => {
       <h3>{icon.des}</h3>
       <div>{icon.name}</div>
       <h3>
-        {icon.lang}
+        {icon.percentages}
         <sup>{sup}</sup>
       </h3>
     </div>

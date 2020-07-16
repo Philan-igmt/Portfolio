@@ -13,7 +13,7 @@ const Services = () => {
   return (
     <div className="allserv" id="service">
       <div>
-        <h3 className="center-align head" data-aos="fade-up">
+        <h3 className="head" data-aos="fade-up">
           Services
         </h3>
       </div>
