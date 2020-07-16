@@ -1,6 +1,8 @@
 import React from "react";
 import "./Project.css";
 import Card from "./Card";
+import gf from "./gf.jpeg";
+import ck from "./CK.jpeg";
 
 const Projects = () => {
   const projects = [
@@ -12,32 +14,16 @@ const Projects = () => {
       id: 1,
     },
     {
-      link: "https://nervous-stonebraker-c62e7b.netlify.app/",
-      image:
-        "https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_1280.jpg",
-      name: "Recipe Website",
+      link: "https://brave-carson-146e9d.netlify.app/",
+      image: gf,
+      name: "Github Finder",
       id: 2,
     },
     {
-      link: "https://nervous-stonebraker-c62e7b.netlify.app/",
-      image:
-        "https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_1280.jpg",
-      name: "Recipe Website",
+      link: "https://nameless-earth-13556.herokuapp.com/login",
+      name: "Contacts Keeper",
+      image: ck,
       id: 3,
-    },
-    {
-      link: "https://nervous-stonebraker-c62e7b.netlify.app/",
-      image:
-        "https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_1280.jpg",
-      name: "Recipe Website",
-      id: 4,
-    },
-    {
-      link: "https://nervous-stonebraker-c62e7b.netlify.app/",
-      image:
-        "https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_1280.jpg",
-      name: "Recipe Website",
-      id: 5,
     },
   ];
   const list = projects.map((project) => (

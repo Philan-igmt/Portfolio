@@ -1,26 +1,27 @@
-.tesimonials{
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+.tesimonials {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
 }
 
-#card{
-    width: 360px;
-    height: 520px;
-    background-color: black;
-     z-index: 1;
-    transition: 1s;
+#card {
+  width: 320px;
+  height: 550px;
+  margin: 0 20px;
+  background-color: black;
+  z-index: 1;
+  transition: 1s;
 }
 
-.testihead{
-    margin: 0;
-    padding-bottom: 100px;
+.testihead {
+  margin: 0;
+  padding-bottom: 100px;
 }
 
-#card:hover{
-    transform: scale(1.2);
+#card:hover {
+  transform: scale(1.2);
 }
 
-.center{
-    padding: 50px 0px;
+.center {
+  padding: 50px 0px;
 }

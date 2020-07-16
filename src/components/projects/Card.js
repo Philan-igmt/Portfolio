@@ -6,6 +6,8 @@ function Card({ info }) {
     <div className="card">
       <div className="card-image">
         <img src={info.image} style={{ height: "200px" }} />
+      </div>
+      <div className="crad-content">
         <span className="card-title">{info.name}</span>
       </div>
       <div className="card-action">

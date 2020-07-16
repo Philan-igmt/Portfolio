@@ -13,13 +13,13 @@ import { FaRegCalendarAlt } from "react-icons/fa";
 const About = () => {
   return (
     <div className="about" data-aos="fade-up" id="about">
-      <h2
+      <h3
         id="heading"
         className="center white-text"
         style={{ padding: "50px" }}
       >
         About Me
-      </h2>
+      </h3>
     </div>
   );
 };

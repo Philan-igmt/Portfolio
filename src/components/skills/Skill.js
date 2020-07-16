@@ -67,9 +67,9 @@ const Skill = () => {
   return (
     <div className="allSkill" id="skill" style={{ padding: "50px 0px" }}>
       <div>
-        <h2 className="center" data-aos="fade-up">
+        <h3 className="center" data-aos="fade-up">
           Skills
-        </h2>
+        </h3>
         <div
           data-aos="fade-up"
           style={{
