@@ -13,25 +13,55 @@ const Skill = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
   });
-
+  const sup = "%";
   const icons = [
-    { name: <FaHtml5 color="red" size="5rem" />, id: 1, lang: "90%" },
-    { name: <FaCss3Alt color="blue" size="5rem" />, id: 2, lang: "70%" },
-    { name: <FaJs color="yellow" size="5rem" />, id: 6, lang: "70%" },
-    { name: <FaPython color="yellow" size="5rem" />, id: 3, lang: "70%" },
-    { name: <FaDatabase color="red" size="5rem" />, id: 4, lang: "80%" },
-    { name: <FaReact color="Aqua" size="5rem" />, id: 5, lang: "70%" },
+    {
+      name: <FaHtml5 color="red" size="5rem" />,
+      id: 1,
+      lang: "90",
+      des: "HTML5",
+    },
+    {
+      name: <FaCss3Alt color="blue" size="5rem" />,
+      id: 2,
+      lang: "70",
+      des: "CSS3",
+    },
+    {
+      name: <FaJs color="yellow" size="5rem" />,
+      id: 6,
+      lang: "70",
+      des: "JSCRIPT",
+    },
+    {
+      name: <FaPython color="yellow" size="5rem" />,
+      id: 3,
+      lang: "70",
+      des: "PYTHON",
+    },
+    {
+      name: <FaDatabase color="red" size="5rem" />,
+      id: 4,
+      lang: "80",
+      des: "MySQL",
+    },
+    {
+      name: <FaReact color="Aqua" size="5rem" />,
+      id: 5,
+      lang: "70",
+      des: "REACT JS",
+    },
   ];
 
   const iconss = icons.map((icon) => (
-    <span style={{ margin: "0px 50px" }} key={icon.id}>
-      {icon.name}
-    </span>
-  ));
-  const percentages = icons.map((icon) => (
-    <span style={{ margin: "85px" }} key={icon.id}>
-      {icon.lang}
-    </span>
+    <div key={icon.id}>
+      <h3>{icon.des}</h3>
+      <div>{icon.name}</div>
+      <h3>
+        {icon.lang}
+        <sup>{sup}</sup>
+      </h3>
+    </div>
   ));
 
   return (
@@ -41,14 +71,14 @@ const Skill = () => {
           Skills
         </h2>
         <div
+          data-aos="fade-up"
           style={{
             display: "flex",
+            justifyContent: "space-evenly",
             flexWrap: "wrap",
-            justifyContent: "space-around",
           }}
         >
-          <p data-aos="fade-up">{iconss}</p>
-          <p data-aos="fade-up">{percentages}</p>
+          {iconss}
         </div>
       </div>
     </div>

@@ -153,7 +153,7 @@ export default class MyForm extends React.Component {
             </div>
           </div>
           <div className="col s12 m6" data-aos="fade-left">
-            <div className="row" style={{ marginTop: "30px" }}>
+            <div className="row right" style={{ marginTop: "90px" }}>
               <div className="col s12 ">
                 <a href="mailto:philanisithembiso@gmail.com">
                   <i className="material-icons left">email</i>

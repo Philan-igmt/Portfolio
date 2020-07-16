@@ -1,32 +1,64 @@
 import React from "react";
 import "./Project.css";
+import Card from "./Card";
 
 const Projects = () => {
+  const projects = [
+    {
+      link: "https://nervous-stonebraker-c62e7b.netlify.app/",
+      image:
+        "https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_1280.jpg",
+      name: "Recipe Website",
+      id: 1,
+    },
+    {
+      link: "https://nervous-stonebraker-c62e7b.netlify.app/",
+      image:
+        "https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_1280.jpg",
+      name: "Recipe Website",
+      id: 2,
+    },
+    {
+      link: "https://nervous-stonebraker-c62e7b.netlify.app/",
+      image:
+        "https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_1280.jpg",
+      name: "Recipe Website",
+      id: 3,
+    },
+    {
+      link: "https://nervous-stonebraker-c62e7b.netlify.app/",
+      image:
+        "https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_1280.jpg",
+      name: "Recipe Website",
+      id: 4,
+    },
+    {
+      link: "https://nervous-stonebraker-c62e7b.netlify.app/",
+      image:
+        "https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_1280.jpg",
+      name: "Recipe Website",
+      id: 5,
+    },
+  ];
+  const list = projects.map((project) => (
+    <div key={project.id}>
+      <Card info={project} />
+    </div>
+  ));
   return (
     <div style={{ backgroundColor: "black", color: "white" }}>
       <h3 data-aos="fade-up" className="center">
         My Work
       </h3>
-      <div className="center" style={{ marginLeft: "20px" }}>
-        <h4 className="project">
-          RECIPE-APP
-          <a
-            className="pulse"
-            target="_blank"
-            href="https://nervous-stonebraker-c62e7b.netlify.app/"
-          >
-            check
-          </a>
-        </h4>
-        <img
-          style={{ border: "2px solid red" }}
-          className="project"
-          data-aos="fade-up"
-          src="https://cdn.pixabay.com/photo/2017/11/08/22/18/spaghetti-2931846_1280.jpg"
-          alt=""
-          width="100px"
-          height="200px"
-        />
+      <div
+        data-aos="fade-up"
+        style={{
+          display: "flex",
+          justifyContent: "space-evenly",
+          flexWrap: "wrap",
+        }}
+      >
+        {list}
       </div>
     </div>
   );
