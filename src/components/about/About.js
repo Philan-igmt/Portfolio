@@ -37,10 +37,11 @@ const About = () => {
                   <li>Full Name: Philani Sithembiso Ndhlela</li>
                   <li>Dte of Birth: 1998-01-02</li>
                   <li>Gender: Male</li>
-                  <li>Location(surburb): Parow/Cape Town</li>
+                  <li>Location(suburb): Parow/Cape Town</li>
                   <li>Nationality: South Afrcan</li>
                   <li>
-                    Willing to relocate: YES to Johannesburg, Pretoria, Durban
+                    Willing to Relocate: <span className="red-text">YES</span>{" "}
+                    to Johannesburg, Pretoria, Durban
                   </li>
                 </ul>
                 <p className="red-text">
