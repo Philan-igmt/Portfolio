@@ -27,10 +27,10 @@ const About = () => {
                 <p className="black-text">
                   <i>
                     <FaQuoteLeft size="2rem" color="black" />I am a problem
-                    solver who always stay focused until I achieve what I have
-                    set my mind to. I believe that failure is a stepping stone
-                    to everything I do and always puts others first. I am a man
-                    of action and will always stay true to my word.
+                    solver who always stay focused until I achieve what I've set
+                    my mind to. I believe that failure is a stepping stone to
+                    everything I do, and always puts others first. I am a man of
+                    action and will always stay true to my words.
                   </i>
                 </p>
                 <ul className="black-text">
@@ -38,7 +38,7 @@ const About = () => {
                   <li>Dte of Birth: 1998-01-02</li>
                   <li>Gender: Male</li>
                   <li>Location(suburb): Parow/Cape Town</li>
-                  <li>Nationality: South Afrcan</li>
+                  <li>Nationality: South African</li>
                   <li>
                     Willing to Relocate: <span className="red-text">YES</span>{" "}
                     to Johannesburg, Pretoria, Durban
@@ -46,7 +46,7 @@ const About = () => {
                 </ul>
                 <p className="red-text">
                   <i>
-                    please check my full CV <a href={cv}>here!</a>
+                    please check my full CV <a href={cv}> by clicking here!</a>
                   </i>
                 </p>
               </div>

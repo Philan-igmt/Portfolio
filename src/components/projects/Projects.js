@@ -32,7 +32,7 @@ const Projects = () => {
     </div>
   ));
   return (
-    <div style={{ backgroundColor: "black", color: "white" }}>
+    <div id="project" style={{ backgroundColor: "black", color: "white" }}>
       <h3 data-aos="fade-up" className="h3">
         My Work
       </h3>
