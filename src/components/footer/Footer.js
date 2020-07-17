@@ -9,7 +9,13 @@ const Footer = () => {
         <h5 className="foo">&copy;2020 By Philan ISithembiso</h5>
         <h5>Supported by</h5>
         <span>
-          <img className="image" src={Logo} alt="" />
+          <a
+            href="https://amazing-booth-c42c9c.netlify.app/#about"
+            target="_blank"
+          >
+            {" "}
+            <img className="image" src={Logo} alt="" />
+          </a>
         </span>
       </div>
     </div>

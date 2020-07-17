@@ -20,6 +20,8 @@ export default class MyForm extends React.Component {
       {
         value: (
           <a
+            rel="noopener noreferrer"
+            target="_blank"
             className="tooltipped"
             data-position="bottom"
             data-tooltip="check myFacebook"
@@ -33,6 +35,8 @@ export default class MyForm extends React.Component {
       {
         value: (
           <a
+            rel="noopener noreferrer"
+            target="_blank"
             className="tooltipped"
             data-position="bottom"
             data-tooltip="check myInstagram"
@@ -46,6 +50,8 @@ export default class MyForm extends React.Component {
       {
         value: (
           <a
+            rel="noopener noreferrer"
+            target="_blank"
             className="tooltipped"
             data-position="bottom"
             data-tooltip="check myTwitter"
@@ -59,6 +65,8 @@ export default class MyForm extends React.Component {
       {
         value: (
           <a
+            rel="noopener noreferrer"
+            target="_blank"
             className="tooltipped"
             data-position="bottom"
             data-tooltip="check myGithub"
@@ -72,6 +80,8 @@ export default class MyForm extends React.Component {
       {
         value: (
           <a
+            rel="noopener noreferrer"
+            target="_blank"
             className="tooltipped"
             data-position="bottom"
             data-tooltip="check myLinkedIn"
@@ -101,6 +111,7 @@ export default class MyForm extends React.Component {
                 className="col s12"
                 action="https://formspree.io/mrgyykng"
                 method="POST"
+                onSubmit={this.submitForm}
               >
                 <div className="row">
                   <div className="input-field col s12 m6">
@@ -146,7 +157,7 @@ export default class MyForm extends React.Component {
                 {status === "SUCCESS" ? (
                   <p>Thanks!</p>
                 ) : (
-                  <button>Submit</button>
+                  <button className="btn btn-red">Submit</button>
                 )}
                 {status === "ERROR" && <p>Ooops! There was an error.</p>}
               </form>
@@ -155,18 +166,21 @@ export default class MyForm extends React.Component {
           <div className="col s12 m6" data-aos="fade-left">
             <div className="row right" style={{ marginTop: "90px" }}>
               <div className="col s12 ">
-                <a href="mailto:philanisithembiso@gmail.com">
+                <a href="mailto:philanisithembiso@gmail.com" target="_blank">
                   <i className="material-icons left">email</i>
                   philanisithembiso@gmail.com
                 </a>
               </div>
               <div className="col s12">
-                <a href="tel:+27761938834">
+                <a href="tel:+27761938834" target="_blank">
                   <i className="material-icons left">phone</i>+27 76 193 8834
                 </a>
               </div>
               <div className="col s12">
-                <a href="https://www.google.com/maps/place/Toplin+House+contact/@-33.9052978,18.5888977,15z/data=!4m5!3m4!1s0x0:0x33631bba9afc7c03!8m2!3d-33.9052978!4d18.5888977">
+                <a
+                  target="_blank"
+                  href="https://www.google.com/maps/place/Toplin+House+contact/@-33.9052978,18.5888977,15z/data=!4m5!3m4!1s0x0:0x33631bba9afc7c03!8m2!3d-33.9052978!4d18.5888977"
+                >
                   <i className="material-icons left">location_on</i>
                   <i>219 Voortrekker Rd, Glenlily, Cape Town, 7500</i>
                 </a>

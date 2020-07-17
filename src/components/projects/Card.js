@@ -5,7 +5,7 @@ function Card({ info }) {
   return (
     <div className="card">
       <div className="card-image">
-        <img src={info.image} style={{ height: "200px" }} />
+        <img src={info.image} style={{ height: "200px" }} alt="" />
       </div>
       <div className="crad-content">
         <span className="card-title">{info.name}</span>
