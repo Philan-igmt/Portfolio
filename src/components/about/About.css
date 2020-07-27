@@ -10,10 +10,18 @@ img {
 
 .About h3 {
   text-align: center;
-  padding: 50px 0;
+  padding-top: 100px;
+  padding-bottom: 50px;
   margin: 0;
 }
 
 .black-text {
   font-size: x-large;
+  letter-spacing: normal;
+  padding: 50px 0;
+}
+.info {
+  border: 2px solid red;
+  border-radius: 5%;
+  margin: 2%;
 }

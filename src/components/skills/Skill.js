@@ -18,43 +18,43 @@ const Skill = () => {
   const sup = "%";
   const icons = [
     {
-      name: <FaHtml5 color="red" size="5rem" />,
+      name: <FaHtml5 color="red" size="6rem" />,
       id: 1,
       percentages: "90",
-      des: "HTML5",
+      des: "HTML 5",
     },
     {
-      name: <FaCss3Alt color="blue" size="5rem" />,
+      name: <FaCss3Alt color="blue" size="6rem" />,
       id: 2,
       percentages: "60",
-      des: "CSS3",
+      des: "CSS 3",
     },
     {
-      name: <FaJs color="yellow" size="5rem" />,
+      name: <FaJs color="yellow" size="6rem" />,
       id: 6,
       percentages: "70",
-      des: "JSCRIPT",
+      des: "JAVASCRIPT",
     },
     {
-      name: <FaPython color="yellow" size="5rem" />,
+      name: <FaPython color="yellow" size="6rem" />,
       id: 3,
       percentages: "70",
       des: "PYTHON",
     },
     {
-      name: <FaDatabase color="red" size="5rem" />,
+      name: <FaDatabase color="red" size="6rem" />,
       id: 4,
       percentages: "80",
       des: "MySQL",
     },
     {
-      name: <FaReact color="Aqua" size="5rem" />,
+      name: <FaReact color="Aqua" size="6rem" />,
       id: 5,
       percentages: "70",
       des: "REACT JS",
     },
     {
-      name: <FaNodeJs color="green" size="5rem" />,
+      name: <FaNodeJs color="green" size="6rem" />,
       id: 7,
       percentages: "50",
       des: "Node JS",
@@ -62,12 +62,12 @@ const Skill = () => {
   ];
 
   const iconss = icons.map((icon) => (
-    <div key={icon.id}>
-      <h3>{icon.des}</h3>
-      <div>{icon.name}</div>
-      <h3>
-        {icon.percentages}
-        <sup>{sup}</sup>
+    <div key={icon.id} className="skillsCard">
+      <div className="center">{icon.name}</div>
+      <h3 className="center cardhead">
+        {icon.des}
+        <br />
+        {icon.percentages} <sup>%</sup>
       </h3>
     </div>
   ));

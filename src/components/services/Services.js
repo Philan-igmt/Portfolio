@@ -13,34 +13,32 @@ const Services = () => {
   return (
     <div className="allserv" id="service">
       <div>
-        <h3 className="head" data-aos="fade-up">
-          Services
-        </h3>
+        <h3 className="head">Services</h3>
       </div>
       <div className="container">
         <div className="row">
           <div className="col s12 m4" data-aos="fade-right">
-            <h3>
-              Web <br /> design
-            </h3>
-            <span>
-              <FaPaintBrush size="4rem" color="black" />
-            </span>
-            <p>Imagination is the most powerful tool of the mind</p>
+            <h4 className="center">Web design</h4>
+            <div className="center">
+              <FaPaintBrush size="5rem" color="black" />
+            </div>
+            <p className="center">
+              Imagination is the most powerful tool of the mind
+            </p>
           </div>
           <div className="col s12 m4" data-aos="fade-up">
-            <h3>Web Development</h3>
-            <span>
-              <FaLaptopCode size="4rem" color="black" />
-            </span>
-            <p>Full-stack Developer</p>
+            <h4 className="center">Web Development</h4>
+            <div className="center">
+              <FaLaptopCode size="5rem" color="black" />
+            </div>
+            <p className="center">Full-stack Developer</p>
           </div>
           <div className="col s12 m4" data-aos="fade-left">
-            <h3>App Development</h3>
-            <span>
-              <FaMobileAlt size="4rem" color="black" />
-            </span>
-            <p>Building Native APP</p>
+            <h4 className="center">App Development</h4>
+            <div className="center">
+              <FaMobileAlt size="5rem" color="black" />
+            </div>
+            <p className="center">Building Native APP</p>
           </div>
         </div>
       </div>

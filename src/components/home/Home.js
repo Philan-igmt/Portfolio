@@ -17,20 +17,19 @@ const Home = () => {
       <div className="home">
         <h1 data-aos="fade-down" className="intro">
           <i>
-            <span>I'm</span> the <span>Ki</span>ng of Dev
+            <span>Ki</span>ng of <span>D</span>ev
             <span>
               <FaCrown color="red" size="5rem" />
             </span>
           </i>
         </h1>
         <p>
-          <i className="red-text" data-aos="zoom-in">
-            Philani Sithembiso Ndhlela, Welcome to my Portfolio
+          <i className="meee" data-aos="zoom-in">
+            I am Philani Sithembiso Ndhlela, Welcome to my Portfolio
           </i>
         </p>
 
         <div className="scroll">
-          <p className="pars">scroll</p>
           <a href="#about" className="btn-floating  btn-large Pale pulse">
             <i className="small material-icons">keyboard_arrow_down</i>
           </a>

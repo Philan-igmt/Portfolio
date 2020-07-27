@@ -6,7 +6,7 @@
 
 #card {
   width: 320px;
-  height: 550px;
+  height: 480px;
   margin: 0 20px;
   background-color: black;
   z-index: 1;
@@ -15,7 +15,8 @@
 
 .testihead {
   margin: 0;
-  padding-bottom: 100px;
+  padding-bottom: 10px;
+  padding-top: 100px;
 }
 
 #card:hover {

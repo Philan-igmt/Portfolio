@@ -7,8 +7,8 @@
 }
 
 .card {
-  width: 250px;
-  height: 300px;
+  width: 400px;
+  height: 400px;
   background-color: black;
   z-index: 1;
   transition: 1s;
@@ -16,6 +16,18 @@
 
 .h3 {
   text-align: center;
-  padding: 50px 0;
+  padding: 140px 0;
   margin: 0;
+}
+
+.hoverdiv p {
+  opacity: 0;
+}
+
+.card .card-image:hover .hoverdiv p {
+  opacity: 1;
+}
+
+.card-image .hoverdiv p {
+  margin: 20px;
 }

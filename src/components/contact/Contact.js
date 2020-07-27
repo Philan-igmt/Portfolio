@@ -24,51 +24,6 @@ export default class MyForm extends React.Component {
             target="_blank"
             className="tooltipped"
             data-position="bottom"
-            data-tooltip="check myFacebook"
-            href="https://www.facebook.com/philani.phila.7792"
-          >
-            <FaFacebookSquare size="2rem" color="blue" />
-          </a>
-        ),
-        id: 1,
-      },
-      {
-        value: (
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            className="tooltipped"
-            data-position="bottom"
-            data-tooltip="check myInstagram"
-            href="https://www.instagram.com/philani_isithembiso/"
-          >
-            <FaInstagramSquare size="2rem" color="brown" />
-          </a>
-        ),
-        id: 2,
-      },
-      {
-        value: (
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            className="tooltipped"
-            data-position="bottom"
-            data-tooltip="check myTwitter"
-            href="https://twitter.com/p_isthembiso"
-          >
-            <FaTwitterSquare size="2rem" color="AQUA" />
-          </a>
-        ),
-        id: 5,
-      },
-      {
-        value: (
-          <a
-            rel="noopener noreferrer"
-            target="_blank"
-            className="tooltipped"
-            data-position="bottom"
             data-tooltip="check myGithub"
             href="https://github.com/Philan-igmt"
           >
@@ -113,7 +68,7 @@ export default class MyForm extends React.Component {
                 method="POST"
                 onSubmit={this.submitForm}
               >
-                <div className="row">
+                <div className="row" style={{ marginLeft: "20%" }}>
                   <div className="input-field col s12 m6">
                     <i className="material-icons prefix">account_circle</i>
                     <input
@@ -140,7 +95,7 @@ export default class MyForm extends React.Component {
                     <label htmlFor="email">Email</label>
                   </div>
                 </div>
-                <div className="row">
+                <div className="row" style={{ marginLeft: "20%" }}>
                   <div className="input-field col s12">
                     <i className="material-icons prefix">edit</i>
                     <input
@@ -157,14 +112,19 @@ export default class MyForm extends React.Component {
                 {status === "SUCCESS" ? (
                   <p>Thanks!</p>
                 ) : (
-                  <button className="btn btn-red">Submit</button>
+                  <button className="btn red" style={{ marginLeft: "20%" }}>
+                    Submit
+                  </button>
                 )}
                 {status === "ERROR" && <p>Ooops! There was an error.</p>}
               </form>
             </div>
           </div>
           <div className="col s12 m6" data-aos="fade-left">
-            <div className="row right" style={{ marginTop: "90px" }}>
+            <div
+              className="row right "
+              style={{ marginTop: "90px", marginLeft: "20%" }}
+            >
               <div className="col s12 ">
                 <a href="mailto:philanisithembiso@gmail.com" target="_blank">
                   <i className="material-icons left">email</i>
@@ -177,12 +137,9 @@ export default class MyForm extends React.Component {
                 </a>
               </div>
               <div className="col s12">
-                <a
-                  target="_blank"
-                  href="https://www.google.com/maps/place/Toplin+House+contact/@-33.9052978,18.5888977,15z/data=!4m5!3m4!1s0x0:0x33631bba9afc7c03!8m2!3d-33.9052978!4d18.5888977"
-                >
+                <a target="_blank">
                   <i className="material-icons left">location_on</i>
-                  <i>219 Voortrekker Rd, Glenlily, Cape Town, 7500</i>
+                  <i>Parow, Cape Town, 7500</i>
                 </a>
               </div>
               <div id="icons" className="col s12">
