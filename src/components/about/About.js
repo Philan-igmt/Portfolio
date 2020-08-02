@@ -67,7 +67,11 @@ const About = () => {
                 </p>
                 <div
                   className="black-text center"
-                  style={{ display: "flex", justifyContent: "space-between" }}
+                  style={{
+                    display: "flex",
+                    justifyContent: "space-between",
+                    flexWrap: "wrap",
+                  }}
                 >
                   <div className="info">
                     <GiSoccerBall size="4rem" color="black" />
@@ -83,7 +87,7 @@ const About = () => {
                     being in a team player
                     <FaHeart size="2rem" color="red" />
                   </div>
-                  <div className="info">
+                  <div className="info education">
                     <FaUserGraduate size="4rem" color="black" />
                     <h5>
                       <strong>Education </strong>
@@ -128,7 +132,7 @@ const About = () => {
                       <strong>year:</strong> 2020-currently
                     </p>
                   </div>
-                  <div className="info">
+                  <div className="info work">
                     <IoMdBuild size="4rem" color="black" />
                     <h5>
                       {" "}
