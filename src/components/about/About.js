@@ -3,7 +3,7 @@ import "./About.css";
 // import Aos from "aos";
 import "aos/dist/aos.css";
 import philani from "./croped.jpg";
-import { FaSmile } from "react-icons/fa";
+
 import { FaUserGraduate } from "react-icons/fa";
 import { FaHeart } from "react-icons/fa";
 import { GiSoccerBall } from "react-icons/gi";
@@ -87,7 +87,7 @@ const About = () => {
                     being in a team player
                     <FaHeart size="2rem" color="red" />
                   </div>
-                  <div className="info education">
+                  <div className="education">
                     <FaUserGraduate size="4rem" color="black" />
                     <h5>
                       <strong>Education </strong>
@@ -132,7 +132,7 @@ const About = () => {
                       <strong>year:</strong> 2020-currently
                     </p>
                   </div>
-                  <div className="info work">
+                  <div className="work">
                     <IoMdBuild size="4rem" color="black" />
                     <h5>
                       {" "}
