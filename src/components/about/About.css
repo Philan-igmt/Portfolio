@@ -19,15 +19,9 @@ img {
   font-size: x-large;
   letter-spacing: normal;
   padding: 50px 0;
-  flex-grow: 1;
 }
 .info {
   border: 2px solid red;
   border-radius: 5%;
   margin: 2%;
-  flex-grow: 1;
-}
-
-.work {
-  flex-grow: 1;
 }

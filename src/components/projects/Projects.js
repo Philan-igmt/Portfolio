@@ -14,7 +14,7 @@ const Projects = () => {
       id: 1,
       Github: "https://github.com/Philan-igmt/Recepe",
       paragraph:
-        "you can use this Web-App to search for a recipe of, built with REACT JS AND EDAMEM API",
+        "you can use this Web-App to search for a recipes, built with REACT JS AND EDAMEM API",
     },
     {
       link: "https://brave-carson-146e9d.netlify.app/",
