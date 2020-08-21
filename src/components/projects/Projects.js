@@ -3,6 +3,7 @@ import "./Project.css";
 import Card from "./Card";
 import gf from "./gf.jpeg";
 import ck from "./CK.jpeg";
+import final from "./final.png";
 
 const Projects = () => {
   const projects = [
@@ -33,6 +34,15 @@ const Projects = () => {
       Github: "https://github.com/Philan-igmt/ContactKeeper",
       paragraph:
         "you can use this Web-App keep contacts online, built with REACT JS AND Node & Express Back-end",
+    },
+    {
+      link: "https://nameless-earth-13556.herokuapp.com/login",
+      name: "Contacts Keeper",
+      image: final,
+      id: 3,
+      Github: "https://github.com/Philan-igmt/finaldeploy.git",
+      paragraph:
+        "Front-to-Back end ecormece website to show my full stack skills",
     },
   ];
   const list = projects.map((project) => (

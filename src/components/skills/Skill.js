@@ -9,7 +9,7 @@ import { FaDatabase } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import "./Skills.css";
-import Spring from "./Spring";
+
 
 const Skill = () => {
   useEffect(() => {

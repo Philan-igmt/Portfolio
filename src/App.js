@@ -12,7 +12,7 @@ import Contact from "./components/contact/Contact";
 import Services from "./components/services/Services";
 import Testi from "./components/testimonials/Testi";
 import Projects from "./components/projects/Projects";
-import Spring from "./components/skills/Spring";
+
 
 const App = () => {
   useEffect(() => {

@@ -19,14 +19,13 @@ const Nav = () => {
             <img src={icon} alt="" />
           </Link>
           <a
-            smooth="true"
-            duration={1000}
-            to="!"
-            className="sidenav-trigger"
-            data-target="mobile"
-          >
-            <i className="material-icons">menu</i>
-          </a>
+          to="#"
+          className="sidenav-trigger"
+          data-target="mobile"
+        >
+          <i className="material-icons">menu</i>
+        </a>
+        
           <ul
             className="right hide-on-med-and-down"
             style={{ marginLeft: "200px" }}
@@ -73,6 +72,7 @@ const Nav = () => {
           </ul>
         </div>
       </nav>
+      {/* side nav */}
       <ul className="sidenav black-text" id="mobile">
         <li>
           <div className="user-view">
