@@ -37,7 +37,7 @@ const Projects = () => {
     },
     {
       link: "https://nameless-earth-13556.herokuapp.com/login",
-      name: "Contacts Keeper",
+      name: "Book e-commerce",
       image: final,
       id: 3,
       Github: "https://github.com/Philan-igmt/finaldeploy.git",

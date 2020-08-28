@@ -10,7 +10,6 @@ import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import "./Skills.css";
 
-
 const Skill = () => {
   useEffect(() => {
     Aos.init({ duration: 2000 });
@@ -56,7 +55,7 @@ const Skill = () => {
     {
       name: <FaNodeJs color="green" size="6rem" />,
       id: 7,
-      percentages: "50",
+      percentages: "65",
       des: "Node JS",
     },
   ];

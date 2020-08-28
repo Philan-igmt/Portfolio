@@ -9,12 +9,12 @@
 }
 
 .skillsCard {
-  /* margin: 50px;
+  /* margin: 50px;*/
   border: 2px solid red;
-  min-width: 300px; */
+  /*min-width: 300px; */
   width: 320px;
   height: 480px;
-  margin: 0 20px;
+  margin: 20px;
   /* background-color: black; */
   z-index: 1;
   transition: 1s;
