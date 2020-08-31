@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import { FaHtml5 } from "react-icons/fa";
 import { FaCss3Alt } from "react-icons/fa";
 import { FaJs } from "react-icons/fa";
+import { FaGitAlt } from "react-icons/fa";
 import { FaPython } from "react-icons/fa";
 import { FaDatabase } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
@@ -71,6 +72,12 @@ const Skill = () => {
       id: 7,
       percentages: "65",
       des: "Node JS",
+    },
+    {
+      name: <FaGitAlt color="red" size="6rem" />,
+      id: 10,
+      percentages: "90",
+      des: "GIT & GITHUB",
     },
   ];
 
