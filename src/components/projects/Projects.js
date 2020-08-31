@@ -24,7 +24,7 @@ const Projects = () => {
       id: 2,
       Github: "https://github.com/Philan-igmt/github-finder",
       paragraph:
-        "you can use this Web-App to search any GITHUB user,check their repositories and they profiles, built REACT JS and AND GITHUB API",
+        "you can use this Web-App to search any GITHUB user,check their repositories and their profiles, built in REACT JS and AND GITHUB API",
     },
     {
       link: "https://nameless-earth-13556.herokuapp.com/login",
@@ -33,16 +33,16 @@ const Projects = () => {
       id: 3,
       Github: "https://github.com/Philan-igmt/ContactKeeper",
       paragraph:
-        "you can use this Web-App keep contacts online, built with REACT JS AND Node & Express Back-end",
+        "you can use this Web-App store contacts online, built with REACT JS AND Node & Express Back-end",
     },
     {
       link: "https://nameless-earth-13556.herokuapp.com/login",
-      name: "Book e-commerce",
+      name: "Books e-commerce",
       image: final,
       id: 3,
       Github: "https://github.com/Philan-igmt/finaldeploy.git",
       paragraph:
-        "Front-to-Back end ecormece website to show my full stack skills",
+        "Front-to-Back end ecormece website to show my full stack skills, built in REACT JS, MONGODB and NODE & EXPRESS",
     },
   ];
   const list = projects.map((project) => (

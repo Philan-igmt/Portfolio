@@ -30,7 +30,13 @@ const Home = () => {
         </p>
 
         <div className="scroll">
-          <a href="#about" className="btn-floating  btn-large Pale pulse">
+          <a
+            href="#about"
+            smooth="true"
+            duration={1000}
+            to="home"
+            className="btn-floating  btn-large Pale pulse"
+          >
             <i className="small material-icons">keyboard_arrow_down</i>
           </a>
         </div>

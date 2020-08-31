@@ -19,8 +19,9 @@ const About = () => {
           <div className="col s12 m6">
             <img
               src={philani}
+              className="hide-on-small-only "
               alt=""
-              style={{ width: "500px", height: "600px" }}
+              style={{ width: "100%", height: "650px" }}
             />
             <div className="bio">
               <p className="aboutId">Full Name: Philani Sithembiso Ndhlela</p>
@@ -30,7 +31,7 @@ const About = () => {
               <p className="aboutId">Nationality: South African</p>
               <p className="aboutId">
                 Willing to Relocate: <span className="red-text">YES</span> to
-                Johannesburg, Pretoria, Durban
+                Johannesburg, Pretoria, Durban, Bloemfontein
               </p>
               <p className="aboutId">
                 Matric (year and school):2016/ Amadlelo Aluhlaza Secondary
@@ -59,25 +60,24 @@ const About = () => {
                 the community youth centre to use the computers for researches
                 and help the staff with typing document. So eventually, I got
                 curious about what makes the computer to do what it does, that
-                is how I fell in love with coding
+                is how I fell in love with coding.
               </i>
             </p>
             <div className="row">
               <div className="col s12 m4">
                 <div className="info">
                   <GiSoccerBall size="4rem" color="white" />
-                  <h5>
+                  <h5 id="h5">
                     <strong>Hobbies</strong>
                   </h5>
                   <p>
-                    {" "}
-                    <br /> singing in a choir,
+                    singing in a choir,
                     <br />
                     spenging time with my debate team,
                     <br /> reading inspirational book and Acting. <br /> I love
-                    being in a team player
-                  </p>{" "}
-                  I love playing soccer,
+                    being a team player.
+                  </p>
+
                   <FaHeart size="2rem" color="red" />
                 </div>
               </div>

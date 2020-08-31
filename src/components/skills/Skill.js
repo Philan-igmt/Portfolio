@@ -8,6 +8,8 @@ import { FaPython } from "react-icons/fa";
 import { FaDatabase } from "react-icons/fa";
 import { FaReact } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
+import { DiMongodb } from "react-icons/di";
+// import { SiTypescript } from "react-icons/si";
 import "./Skills.css";
 
 const Skill = () => {
@@ -35,6 +37,12 @@ const Skill = () => {
       des: "JAVASCRIPT",
     },
     {
+      name: <FaJs color="blue" size="6rem" />,
+      id: 9,
+      percentages: "60",
+      des: "TYPESCRIPT",
+    },
+    {
       name: <FaPython color="yellow" size="6rem" />,
       id: 3,
       percentages: "70",
@@ -42,9 +50,15 @@ const Skill = () => {
     },
     {
       name: <FaDatabase color="red" size="6rem" />,
-      id: 4,
+      id: 8,
       percentages: "80",
       des: "MySQL",
+    },
+    {
+      name: <DiMongodb color="green" size="6rem" />,
+      id: 4,
+      percentages: "80",
+      des: "MONGO DB",
     },
     {
       name: <FaReact color="Aqua" size="6rem" />,
@@ -72,7 +86,7 @@ const Skill = () => {
   ));
 
   return (
-    <div className="allSkill" id="skill" style={{ padding: "50px 0px" }}>
+    <div className="allSkill" id="skill" style={{ padding: "30px 0px" }}>
       <div>
         <h3 className="center" data-aos="fade-up">
           Skills

@@ -20,7 +20,7 @@ const Services = () => {
           <div className="col s12 m4" data-aos="fade-right">
             <h4 className="center">Web design</h4>
             <div className="center">
-              <FaPaintBrush size="5rem" color="black" />
+              <FaPaintBrush size="7rem" color="black" />
             </div>
             <p className="center">
               Imagination is the most powerful tool of the mind
@@ -29,16 +29,16 @@ const Services = () => {
           <div className="col s12 m4" data-aos="fade-up">
             <h4 className="center">Web Development</h4>
             <div className="center">
-              <FaLaptopCode size="5rem" color="black" />
+              <FaLaptopCode size="7rem" color="black" />
             </div>
-            <p className="center">Full-stack Developer</p>
+            <p className="center">Full-Stack Developer</p>
           </div>
           <div className="col s12 m4" data-aos="fade-left">
             <h4 className="center">App Development</h4>
             <div className="center">
-              <FaMobileAlt size="5rem" color="black" />
+              <FaMobileAlt size="7rem" color="black" />
             </div>
-            <p className="center">Building Native APP</p>
+            <p className="center">Building Native Apps</p>
           </div>
         </div>
       </div>

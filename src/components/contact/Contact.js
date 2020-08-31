@@ -106,7 +106,7 @@ export default class MyForm extends React.Component {
                       required
                       className="validate"
                     />
-                    <label htmlFor="messege">Messege</label>
+                    <label htmlFor="messege">Message</label>
                   </div>
                 </div>
                 {status === "SUCCESS" ? (
